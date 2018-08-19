@@ -1,4 +1,4 @@
-# burger
+# Burger
 
 ## Brief Description
 An app that saves a burger when entered. MySQL is used to store the burgers entered.
