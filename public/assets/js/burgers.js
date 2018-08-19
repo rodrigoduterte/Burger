@@ -1,7 +1,6 @@
 // Make sure we wait to attach our handlers until the DOM is fully loaded.
 $(function() {
     var dialog = UIkit.modal('#modal');
-    console.log(dialog);
     $( document ).on("click", ".devour", function(event) {
       var id = parseInt($(this).attr("dataid"));
       var name = $(this).parent().text().replace('Devour','');
