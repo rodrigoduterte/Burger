@@ -5,7 +5,6 @@ var burger = {
         orm.selectAll('burgers',(results)=>{cb(results);});
     },
     create : (col1,col2,val1,val2,cb) => {
-        console.log('called burger create');
         orm.insertOne('burgers',col1,col2,val1,val2,(results)=>{cb(results);});
     },
     modify : (col1,val1,id,cb) => {
